@@ -1,0 +1,62 @@
+fieldset{
+    padding: 15px;
+    border-radius: 10px;
+    border-color: rgba(255,0,0, 0.8)
+}
+
+label{
+    display: inline-block;
+    cursor: pointer;
+}
+
+input{
+    outline: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+input:invalid{
+    background-color: pink;
+}
+
+input:valid{
+    background-color: rgba(154,205,50 ,0.5 );
+}
+
+input:placeholder-shown{
+    font-style: italic;
+}
+
+select{
+    outline: none;
+}
+
+option{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(255,0,0, 0.2);
+}
+
+textarea{
+    outline:none;
+    border:2px solid rgba(255,0,0, 0.5);
+    border-radius:5px;
+    padding: 5px;
+}
+
+textarea:placeholder-shown{
+    font-style: italic;
+    font-size: 12px;
+}
+
+.submit{
+    float: right;
+    border: 1px solid rgba(255,0,0, 0.8);
+    outline:none;
+    background-color: rgba(255,0,0, 0.5);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    padding: 5px;
+    cursor: pointer;
+    box-shadow: -2px 2px 5px 2px grey;
+}

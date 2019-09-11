@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+hr{
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid rgba(255, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+img{
+    image-orientation: from-image;
+}
+
+section, aside, footer{
+    margin:15px;
+    border: 3px solid rgba(255, 0, 0, 0.5);
+    padding: 14px 24px;
+    border-radius: 10px;
+    box-shadow: -2px 2px 5px 2px grey;
+}
+
+footer{
+    text-align: center;
+}
+
+section{
+    float: left;
+    width: 65%;
+}
+
+aside{
+    float: right;
+    width: 22%;
+}
+
+footer, header{
+    clear: both;
+}
+
+.heading{
+    width: 100vw;
+    background-color: rgba(255, 0, 0, 0.2);
+    padding-bottom: 10px;
+    padding-top:1px;
+    border-bottom: 2px solid red;
+}
+
+nav{
+    padding-top:5px;
+    margin: 5px;
+}
+
+nav li{
+    display: inline;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+nav li a{
+    text-decoration: none;
+    color:red;
+}
+
+nav li a:hover{
+    color: black;
+}
+
+.projectTitle{
+    margin-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color:red;
+}
+
+#img{
+    float: right;
+    margin: 5px;
+    padding: 2px;
+    box-shadow: -2px 2px 5px 2px grey;
+}
+
+details summary{
+    outline: none;
+}
+
+section{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+summary::-webkit-details-marker {
+    color: rgba(255, 0, 0, 0.5);
+    background:#FFFFFF;
+}
+
+mark{
+    background: rgba(255, 0, 0, 0.2);
+}
+
+.player{
+    float: left;
+    margin: 5px;
+    background-color:rgba(255, 0, 0, 0.2);
+    border: 3px solid rgba(255, 0, 0, 0.5);
+    width:335px;
+}
+
+.player .controls{
+    background-color: red;
+    margin: 0;
+}
+
+.player video{
+    padding: 15px 0px 8px 14px;    
+}
+
+
+#artVid{
+    float: right;
+    width: 58%;
+}
+
+.controls{
+    height: 25px;
+}
+
+.controls input{
+    padding: 0;
+}
+
+.player .controls button{
+    border:none;
+    background: none;
+    color: white;
+    outline: none;
+    padding-top: 5px;
+    cursor: pointer;
+}
+  
+#slide {
+-webkit-appearance: none;
+height: 10px;
+background: #d3d3d3;
+outline: none;
+opacity: 0.7;
+-webkit-transition: .2s;
+transition: opacity .2s;
+}
+
+#slide:hover {
+opacity: 1;
+}
+
+#slide::-webkit-slider-thumb {
+-webkit-appearance: none;
+appearance: none;
+width: 25px;
+height: 10px;
+background:rgba(255, 0, 0, 1);
+cursor: pointer;
+}
+
+#slide::-moz-range-thumb {
+width: 25px;
+height: 25px;
+background: #4CAF50;
+cursor: pointer;
+}
+
+.thumbs{
+    padding: 10px 10px 5px 10px;
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+#myCanvas{
+    background:rgba(255, 0, 0, 0.2);
+}
+
+#myCanvas2{
+    background:rgba(255, 0, 0, 0.2);
+}
+
+
+
+
+
+

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project HTML</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/formstyle.css">
+    
+</head>
+<body onload="init2();">
+    
+    <header class="heading">
+        <h1 class="projectTitle">Project HTML </h1>
+        <hr>
+        <nav>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#video">Video</a></li>
+            <li><a href="#animation">Canvas & Animation</a></li>
+        </nav>
+    </header>
+        
+    <section class="home" id="home">
+        <h2>ABOUT ME</h2>
+        <a href="img/img.jpg" download="charlie">
+            <img src="img/img.JPG" alt="" width="200px" height="200px" id="img">
+        </a>
+        <p>My Name is <mark>Charlie L Dogaong</mark>. I was born in <time >May 19, 1996</time>. I am the last child to my six siblings.</p>
+        <details>
+            <summary>
+            <strong> My Hobbies </strong>
+            </summary>
+            <ul>
+                <li>Playing Chess</li>
+                <li>Playing Computer games</li>
+                <li>Travelling</li>
+                <li>Eating</li>
+                <li>Watching Movies</li>
+            </ul>
+        </details>
+        <details>
+            <summary>
+            <strong> Education Background </strong>
+            </summary>
+            <ul>
+                <li>Elementary: Mabini Elementary School (2003-2009) </li>
+                <li>High School: Baguio City National High School: Main (2009-2013) </li>
+                <li>College: University of The Cordilleras (2013-2016) </li>
+            </ul>
+        </details>
+        <details>
+            <summary>
+            <strong> Courses in EdX taken </strong>
+            </summary>
+            <ul>
+                <li>HTML5 Coding Essentials and Best Practices</li>
+                <li>JavaScript Introduction</li>
+                <li>HTML5 and CSS Fundamentals</li>
+                <li>CSS Basics</li>
+            </ul>
+        </details>
+    </section>
+    <aside>
+        <center><h1 style="font-size: 20px;">HTML5, CSS and  JavaScript</h1></center>
+        <br>
+        <center><img src="img/html5 logo.png" alt="" width="100px" height="100px"></center>
+        <p>On 28 October 2014, the W3C officially published HTML5 as a Web standard (or recommendation of HTML5). HTML5 is the fifth major revision of the format used to build Web pages and applications.
+        <br><br>
+        HTML5 contains powerful capabilities for Web-based applications with more interaction, video support, graphics, more styling effects, and a full set of APIs. HTML5 adapts to any device, be it a desktop, mobile, tablet, or television device. HTML5 is an open platform developed under royalty free licensing terms.
+        <br><br>
+        People use the term HTML5 in two ways:
+        <br><br>
+        -to refer to a set of technologies that together form the future Open Web Platform. These technologies include HTML5 specification, CSS3, SVG, MathML, Geolocation, XmlHttpRequest, Context 2D, Web Fonts (WOFF) and others. The boundary of this set of technologies is informal and changes over time.
+        <br><br>
+        -to refer to the HTML5 specification, which is, of course, also part of the Open Web Platform.
+        Although it would be great if people used one term to refer to the specification and another term to refer to the set of specifications, in practice people use the term both ways.
+        <br><br>
+        When HTML5 became a Web standard, Tim Berners-Lee, Web inventor and W3C Director said:
+        <br><br>
+        "Today we think nothing of watching video and audio natively in the browser, and nothing of running a browser on a phone. We expect to be able to share photos, shop, read the news, and look up information anywhere, on any device. Though they remain invisible to most users, HTML5 and the Open Web Platform are driving these growing user expectations."</p>
+        <p>For further reading, check out the link below: <br> 
+        <a href="https://mashable.com/2012/07/17/history-html5/" target="_blank">https://mashable.com/2012/07/17/history-html5/</a>
+        <center><img src="img/css logo.png" alt="" width="115px" height="115px"></center>
+        <p>CSS stands for Cascading Style Sheets. CSS describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work. It can control the layout of multiple web pages all at once. External stylesheets are stored in CSS files
+        <br><br>
+        CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.
+        <br><br>
+        For further readings and tutorials, check out <a href="https://www.w3schools.com/css/css_intro.asp" target="_blank">https://www.w3schools.com/css/css_intro.asp</a>
+        </p>
+        <br>
+        <center><img src="img/js logo.png" alt="" width="100px" height="100px"></center>
+        <p>Javascript (JS) is a scripting languages, primarily used on the Web. It is used to enhance HTML pages and is commonly found embedded in HTML code. JavaScript is an interpreted language. Thus, it doesn't need to be compiled. JavaScript renders web pages in an interactive and dynamic fashion. This allowing the pages to react to events, exhibit special effects, accept variable text, validate data, create cookies, detect a user’s browser, etc. <br><br>
+        External resources: <br>
+        <a href="https://www.techopedia.com/definition/3929/javascript-js" target="_blank">https://tinyurl.com/y5om6xyb</a>
+        </p>
+        
+    </aside>
+
+    <section class="video" id="video">
+        <h1>VIDEO</h1>
+        <div class="player">
+            <video width="300px" id="myVideo" poster="img/img2.png">  
+                <source src="vid/vid.mp4" type=video/mp4>
+            </video>
+            <div class="controls">
+                &nbsp;<button type="button" id="pl"><strong>▶</strong></button>
+                <button type="button" id="pr"><strong>←</strong></button>
+                <input id="slide" type="range" value="0">
+                <button type="button" id="nx"><strong>→</strong></button>
+                <strong style="font-size: 12px">  🔈&nbsp;</strong><button type="button" id="volDown"><strong>-</strong></button>
+                <button type="button" id="volUp">+<strong></strong></button>
+            </div>
+            <div class="thumbs">
+                <img id="vid1" src="img/img2.png"  alt="video 1" width="50" height="50">
+                <img id="vid2" src="img/img3.PNG"  alt="video 2" width="50" height="50">
+            </div>
+        </div>
+        <article id="artVid">
+            <h2>Mari&ntilde;as Beach Resort and Spa</h2>
+            <p>This is the best swimming pool so far that I ever visited. This is also the time where my phone got destroyed because I put it under water thinking it was waterproof</p>
+        </article>
+    </section>
+
+    <section class="animation" id="animation">
+        <h1>ANIMATION</h1>
+        <p>Play with my JavaBOT &#40;Press <mark>&larr;&uarr;&rarr;&darr;</mark> on your keyboard&#41;</p>
+        <canvas id="myCanvas2" style="width: 100%" height="150px">
+            Your browser does not support the canvas tag.
+        </canvas>
+    </section>
+    
+    <section class="forms" id="forms">
+        <h1>Tell Me About Yourself</h1>
+        <form action="#" method="POST">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <div>
+                    <label for="name">Full Name</label>
+                    <input type="text" name="name" id="name" placeholder="e.g. John A. Doe" minlength="7" style="width: 200px; margin-right:5%" required autofocus>
+
+                    <label for="age">Age</label>
+                    <input type="number" name="age" id="age" step="1" min="10" max="100" style="margin-right: 8%" required>
+
+                    <label for="gender">Gender:</label>
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="male">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="female">
+                </div>
+
+                <div>
+                    <label for="address">Address</label>
+                    <input type="text" name="address" id="address" required placeholder="Input your address here..." minlength="15" style="width: 85%">
+                </div>
+
+                <div>
+                    <label for="birthday">Birthday</label>
+                    <input type="date" name="birthday" id="birthday" style="margin-right:1%;" required>
+
+                    <label for="mStatus">Marital Status</label>
+                    <select name="mStatus" id="mStatus" style="font-family: 'Courier New', Courier, monospace; margin-right: 2%;">
+                        <option value="Single">Single</option>
+                        <option value="Married">Married</option>
+                        <option value="Widowed">Widowed</option>
+                    </select>
+
+                    <label for="citizenship">Citizenship</label>
+                    <input type="text" name="citizenship" id="citizenship" minlength="4" required>
+                </div>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Contact Details</legend>
+                <div>
+                    <label for="telPhone">Tel #</label>
+                    <input type="number" name="telPhone" id="telPhone" step="1" minlength="7" maxlength="7" style="margin-right: 1%">
+
+                    <label for="cellPhone">Cell #</label>
+                    <input type="number" name="cellPhone" id="cellPhone" step="1" minlength="11" maxlength="11" style="margin-right: 2%">
+
+                    <label for=""><mark>&#40;Leave the two blank if none&#41;</mark></label>
+                </div>
+
+                <div>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" style="width:87%" required>
+                </div>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Tell me more!</legend>
+                <textarea name="" id="" cols="115" rows="10" minlength="20" placeholder="Hobbies, Experiences, Adventures, etc..."></textarea>
+            </fieldset>
+            <br>
+            <button type="submit" class="submit" name="submit">Introduce Myself</button>
+        </form>
+    </section>
+    <footer>
+        &copy;September 2019
+    </footer>
+    <script src="js/video.js"></script>
+    <script src="js/animation.js"></script>
+</body>
+</html>
